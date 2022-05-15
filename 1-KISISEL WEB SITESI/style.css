@@ -1,0 +1,230 @@
+* {
+  margin: 0;
+  padding: 0;
+  user-select: none;
+}
+
+body {
+  font-family: "PT Sans", sans-serif;
+  margin: 0px;
+}
+
+ul.listeleme {
+  list-style-type: none;
+  padding-left: 0;
+  background-color: #edd2f3;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+  background-color: #edd2f3;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+
+.container ul {
+  position: relative;
+  top: 200px;
+  text-decoration: none;
+}
+
+.container ul li {
+  text-decoration: none;
+}
+
+.container ul li a {
+  color: gray;
+  text-decoration: none;
+  font-weight: bold;
+  font-family: sans-serif;
+  font-size: 1.3rem;
+  padding: 10px;
+}
+
+.container a:link {
+  text-decoration: none;
+  margin-right: 25px;
+  color: #fa4eab;
+}
+
+.container ul li a:hover {
+  border-radius: 40px;
+  background-color: gray;
+  transition: 200ms;
+  font-size: 30px;
+  background-color: gray;
+  text-decoration: none;
+  color: #fa4eab;
+}
+
+.container ul li a:visited {
+  text-decoration: none;
+  margin-right: 25px;
+  color: #fa4eab;
+}
+
+#menu {
+  height: 80px;
+  background-color: #effffd;
+  padding: 0 20px;
+}
+
+#logo {
+  font-size: 30px;
+  line-height: 80px;
+  color: #c65d7b;
+  float: left;
+}
+
+nav {
+  float: right;
+  line-height: 80px;
+}
+
+nav a:link {
+  text-decoration: none;
+  margin-right: 25px;
+  color: #c65d7b;
+}
+
+nav a:hover {
+  text-decoration: underline;
+  color: #c65d7b;
+}
+
+nav a:visited {
+  text-decoration: none;
+  margin-right: 25px;
+  color: #c65d7b;
+}
+
+#logo {
+  margin-right: 7px;
+  font-size: 16px;
+}
+
+#anasayfa {
+  height: 600px;
+  background-image: url("img/texture.jpg");
+
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+#black {
+  height: 600px;
+  background-color: black;
+  opacity: 0.6;
+}
+
+#icerik {
+  position: absolute;
+  top: 50%;
+  left: 40%;
+  transform: translate(-50%, -50%);
+  color: #effffd;
+  font-size: 20px;
+}
+
+#hakkimda {
+  padding: 50px;
+  text-align: center;
+  text-transform: capitalize;
+  background-color: #edd2f3;
+  font-weight: 600;
+}
+
+h3 {
+  font-size: 55px;
+  color: #c65d7b;
+  text-shadow: 0px 1px 1px black;
+  font-weight: 600;
+}
+
+.container {
+  width: 1200px;
+  height: auto;
+  margin: auto;
+}
+
+#sol {
+  float: left;
+  border-right: 3px solid #445c6e;
+  font-size: 30px;
+  width: 400px;
+  color: #445c6e;
+}
+
+#h5sol {
+  line-height: 1.6;
+  font-size: 22px;
+  font-weight: 600;
+}
+
+#h5sol,
+#sag {
+  margin: 0;
+  padding: 0;
+  margin-top: 20px;
+}
+
+span {
+  font-size: 50px;
+  margin-right: 7px;
+  line-height: 42px;
+  color: #445c6e;
+  font-weight: 600;
+  float: left;
+}
+
+#sag {
+  float: right;
+  width: 750px;
+  color: #999999;
+  text-align: center;
+  letter-spacing: 1px;
+  font-size: 15px;
+  line-height: 1.8;
+  font-weight: 100;
+}
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+
+.mt100 {
+  margin-top: 100px;
+}
+
+#pson {
+  color: #999;
+  letter-spacing: 1px;
+  font-size: 15px;
+  line-height: 1.8;
+  font-weight: 100;
+}
+
+.card {
+  width: 320px;
+  height: 350px;
+  border: 1px solid #8e3200;
+  padding: 0;
+  display: inline-block;
+}
+
+.cardbaslik {
+  font-size: 20px;
+  color: #c65d7b;
+}
+
+.cardp {
+  color: #464e2e;
+  font-size: 13px;
+}
+.card:hover {
+  border: 2px solid black;
+}
