@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>İLETİŞİM</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style-iletisim.css">
+</head>
+<body>
+    <header> 
+        <div class="textbaslik">
+            <h1 style="text-decoration: none;"><a href="index.html"> Selin Şahin</a></h1>
+                <h2>İletişim</h2>
+        </div>
+      </header>
+
+        <nav>
+            <ul>
+                <a href="anasayfa"><a href="index.html">Ana Sayfa</a></a>
+                  <a href="hakkimda.html"></i>Hakkımda</a>
+                  <a href="ozgecmis.html"></i>Özgeçmiş</a>
+                  <a href="sehrim.html"></i>Şehrim</a>
+                  <a href="mirasimiz.html"></i>Mirasımız</a>
+                  <a href="ilgi-alanlarim.html"></i>İlgi Alanlarım</a>
+                  <a href="login.html"></i>Login</a>
+                  <a href="iletisim.html"></i>İletişim</a>
+            </ul>
+        </nav>
+
+        <div class="container">
+
+            <h1 class="display-2 baslik">İletişim</h1>
+
+        <form class="row g-3 mb-5" action="form.php" method="get">
+
+            
+            <div class="col-md-6">
+                <label for="inputEmail4" class="form-label">Email:</label>
+                <input type="email" class="form-control" id="inputEmail4" placeholder="Email" name="email">
+              
+            </div>
+            
+            <div class="col-md-6">
+              <label for="inputPassword4" class="form-label" >İsim:</label>
+              <input type="text" class="form-control" id="inputPassword4" placeholder="Ad Soyad" name="isim">
+            </div>
+
+            <div class="col-12">
+                <label for="inputTextarea1" class="form-label">Mesajınız:</label>
+                <textarea class="form-control" id="inputTextarea1" rows="6" placeholder="Mesajınız.." name="msj"></textarea>
+              </div>
+            
+            <div class="col-md-4">
+              <label for="inputSehir" class="form-label">Şehir:</label>
+              <select id="inputSehir" class="form-select" name="sehir">
+                <option selected  value="belirtilmedi">Şehir seçiniz</option>
+                <option value="İstanbul">İstanbul</option>
+                <option value="Ankara">Ankara  </option>
+                <option value="İzmir">İzmir   </option>
+                <option value="Kocaeli">Kocaeli </option>
+                <option value="Sakarya">Sakarya </option>
+                <option value="Trabzon">Trabzon </option>
+                <option value="Diger">Diğer   </option>
+              </select>
+            </div>
+
+            <div class="col-md-8">
+              <label for="inputAdres" class="form-label">Adres:</label>
+              <input type="text" class="form-control" id="inputAdres" name="adres">
+            </div>
+
+            <div class="col-md-12">
+                <label for="form-label:">Yaş:</label>
+                <div class="form-check">
+                    <input type="radio" class=" form-check-input" id="0-18" name="yas" value="0-18">
+                    <label for="0-18" class="form-check-label">0-18</label>
+                </div>
+
+                <div class="form-check">
+                    <input type="radio" class=" form-check-input" id="18-30" name="yas" value="18-30">
+                    <label for="18-30" class="form-check-label">18-30</label>
+                </div>
+
+                <div class="form-check">
+                    <input type="radio" class=" form-check-input" id="30+" name="yas" value="30+">
+                    <label for="30+" class="form-check-label">30+</label>
+                </div>
+
+            </div>
+            
+
+            
+
+            <div class="col-12">
+
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="gridCheck">
+                <label class="form-check-label" for="gridCheck" name="bulten">
+                  E-posta bültenine katılmak istiyorum.
+                </label>
+              </div>
+
+            </div>
+
+            
+
+            <div class="col-md-12">
+            <button class="btn btn-primary" type="submit">Gönder</button>
+            </div>
+            
+
+          </form>
+
+        </div>
+
+
+
+        <br><br>
+        <footer>
+            <h3><a href="iletisim.html"> <span style="font-size: 20px;"></span> Bize Ulaşın</a></h3>
+            <p class="footeryazi">Tüm hakları saklıdır. © Selin Şahin 2022</p>
+    </footer>
+    
+</body>
+</html>
